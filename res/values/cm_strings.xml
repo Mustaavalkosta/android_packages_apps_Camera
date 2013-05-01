@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -160,4 +160,23 @@
     <string name="pref_camera_focustime_entry_20">20s</string>
     <string name="pref_camera_focustime_entry_30">30s</string>
     <string name="pref_camera_focustime_entry_infinite">Infinite</string>
+
+    <string name="pref_camera_nohands_title">Hands-free shutter</string>
+    <string name="pref_camera_nohands_voice" translatable="false">voice</string>
+    <string name="pref_camera_nohands_default" translatable="false">0</string>
+
+    <!-- Settings screen, Timer mode entries -->
+    <string name="pref_camera_timer_entry_0">Off</string>
+    <string name="pref_camera_timer_entry_10">10s</string>
+    <string name="pref_camera_timer_entry_20">20s</string>
+    <string name="pref_camera_timer_entry_30">30s</string>
+    <string name="pref_camera_timer_entry_40">40s</string>
+    <string name="pref_camera_timer_entry_50">50s</string>
+    <string name="pref_camera_timer_entry_60">60s</string>
+
+    <string name="voice_hint">Snap a photo from a distance by saying a trigger word: You can use \'Cid\', \'Whisky\', and of course \'Cheese!\'</string>
+
+    <!-- Persistent remote shutter -->
+    <string name="pref_nohands_persistent_title">Persistent handsfree</string>
+    <string name="pref_nohands_persistent_default" translatable="false">@string/setting_off_value</string>
 </resources>
